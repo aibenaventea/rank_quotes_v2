@@ -1,0 +1,20 @@
+<p>add-authors works!</p>
+
+<header class="header-4">
+  <h1 class="title-4">Favourite Authors</h1>
+  <a class="ref-4" [routerLink]="['/']">Home</a>
+  <h2 class="subtitle-4">Add a new author:</h2>
+  <div *ngIf="errorMsg" class="red">{{errorMsg}}</div>
+</header>
+<main class="main-container4">
+  <form >
+    <div class="container-txt">
+      <label class="label-txt" for="authorName">Name:</label>
+      <input class="data-txt" type="text" name="authorName" [(ngModel)]="author.name" value="">
+    </div>
+    <div class="container-btns">
+      <button class="btn41" [routerLink]="['/']">Cancel</button>
+      <button class="btn42" (click)="createAuthor()">Submit</button>
+    </div>
+  </form>
+</main>

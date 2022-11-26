@@ -1,0 +1,107 @@
+
+/* inicio header */
+.header-5{
+  margin: 0px 20px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+
+}
+.ref-container{
+  margin: 0px 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.title-5{
+  margin: 0px 0px 10px 0px;
+  font-size: 5em;
+}
+.subtitle-5{
+  margin: 10px 0px 10px 0px;
+  font-size: 3.5em;
+}
+.ref-5{
+  margin: 10px 0px 0px 0px;
+  font-size: 2em;
+}
+/* fin header */
+
+/* inicio main */
+.main-container{
+margin: 20px;
+}
+table, td, th {
+  border: 2px solid black;
+}
+td{
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.theader-5{
+  background-color: rgba(203, 203, 203, 0.946);
+  color: whitesmoke;
+  margin: 5px;
+  padding: 10px;
+
+  font-size: 2.5em;
+
+}
+.trow{
+  font-size: 2.5em;
+}
+
+.trow:nth-child(odd) {
+
+  background-color: rgb(190, 190, 190);
+
+}
+
+.column-btns{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.btn51{
+  margin: 5px 100px;
+  width: 200px;
+  height: 50px;
+  font-size: 0.5em;
+  border-radius: 10px;
+  background-image: linear-gradient(rgb(167, 224, 174), rgb(56, 59, 85));
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.btn52{
+  margin: 5px 100px;
+  width: 200px;
+  height: 50px;
+  font-size: 0.5em;
+  border-radius: 10px;
+  color: whitesmoke;
+  background-image: linear-gradient(rgb(230, 214, 160), rgb(75, 83, 115));
+  cursor: pointer;
+}
+
+.btn53{
+  margin: 5px 100px;
+  width: 200px;
+  height: 50px;
+  font-size: 0.5em;
+  border-radius: 10px;
+  color: whitesmoke;
+  background-image: linear-gradient(rgb(230, 160, 160), rgb(75, 83, 115));
+  cursor: pointer;
+}
+
+
+/* fin main */

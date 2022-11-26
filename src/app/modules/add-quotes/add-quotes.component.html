@@ -1,0 +1,19 @@
+<p>add-quotes works!</p>
+<header class="header-7">
+  <h1 class="title-7">Quote Ranks</h1>
+  <a class="ref-7" [routerLink]="['/']">Home</a>
+  <h2 class="subtitle-7">Provide a quote by {{author.name}}</h2>
+  <div *ngIf="errorMsg" class="red">{{errorMsg}}</div>
+</header>
+<main class="main-container7">
+  <form >
+    <div class="container-txt">
+      <label class="label-txt" for="quote">Quote:</label>
+      <input class="data-txt" type="text" name="quote" [(ngModel)]="quote">
+    </div>
+    <div class="container-btns">
+      <button class="btn71" [routerLink]="['/']">Cancel</button>
+      <button class="btn72" (click)="clickSubmit()" >Submit</button>
+    </div>
+  </form>
+</main>

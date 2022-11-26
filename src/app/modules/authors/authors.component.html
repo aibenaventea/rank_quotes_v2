@@ -1,0 +1,25 @@
+<p>authors works!</p>
+
+<header class="header-1">
+  <h1 class="title-1">Favourite authors</h1>
+  <a class="ref-1" [routerLink]="['/new']">Add a quotable author</a>
+  <h2 class="subtitle-1">We have quotes by:</h2>
+</header>
+<main class="main-container">
+<table class="table-1">
+  <tr class="theader-1">
+      <th>Author</th>
+      <th>Actions Available</th>
+  </tr>
+  <tr *ngFor="let author of authors" class="trow">
+    <td>{{author.name}}</td>
+    <td>
+      <div class="column-btns">
+        <button class="btn0" [routerLink]="['/quotes/list', author._id]">View quotes</button>
+        <button class="btn1" (click)="clickEdit(author)">Edit</button>
+        <button class="btn2" (click)="deleteAuthor(author)">Delete</button>
+      </div>
+    </td>
+  </tr>
+</table>
+</main>

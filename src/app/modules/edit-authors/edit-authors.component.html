@@ -1,0 +1,21 @@
+<p>edit-authors works!</p>
+
+<header class="header-3">
+  <h1 class="title-3">Favourite Authors</h1>
+  <a class="ref-3" [routerLink]="['/']">Home</a>
+  <h2 class="subtitle-3">Edit this author</h2>
+</header>
+<main class="main-container3">
+  <form>
+    <div class="container-txt">
+      <label class="label-txt" for="authorName">Name:</label><br>
+      <input class="data-txt" type="text" name="authorName" [(ngModel)]="author.name" value="{{author.name}}">
+    </div>
+    <div *ngIf="errorMsg" class="red">{{errorMsg}}</div>
+    <div class="container-btns">
+      <button class="btn31" (click)="clickCancel()">Cancel</button>
+      <button class="btn32" (click)="clickSumbit()">Submit</button>
+    </div>
+  </form>
+</main>
+

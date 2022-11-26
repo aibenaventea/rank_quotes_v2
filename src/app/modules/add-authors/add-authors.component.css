@@ -1,0 +1,77 @@
+.header-4{
+  margin: 0px 20px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+.title-4{
+  margin: 0px 0px 10px 0px;
+  font-size: 5em;
+}
+.subtitle-4{
+  margin: 10px 0px 10px 0px;
+  font-size: 3.5em;
+}
+.ref-4{
+  margin: 10px 0px 0px 0px;
+  font-size: 2em;
+}
+
+/* fin header */
+
+.main-container4{
+  margin: 20px;
+  }
+
+.container-txt{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: left;
+
+}
+
+.label-txt {
+  margin: 0px 10px;
+  font-weight: bolder;
+  font-size: 2.5em;
+  color: grey;
+}
+
+.data-txt{
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1.5em;
+}
+
+.container-btns{
+  text-align: center;
+}
+
+.btn41{
+  margin: 5px 100px;
+  width: 200px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: dodgerblue;
+  color: whitesmoke;
+  font-size: 2.5em;
+  border: none;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.btn42{
+  margin: 5px 100px;
+  width: 200px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: dodgerblue;
+  color: whitesmoke;
+  font-size: 2.5em;
+  border: none;
+  font-weight: bolder;
+  cursor: pointer;
+
+}
